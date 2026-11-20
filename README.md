@@ -25,8 +25,8 @@ streamlit run streamlit_app.py
 4. Deploy, test image upload/confidence slider, and capture two screenshots showing detections.
 
 ## Submission checklist
-- [ ] Public deployed app link added below
-- [ ] GitHub repository link added below
+- https://construction-ppe-yolo-detector-eecqoftlzqjf6a8fdy6feo.streamlit.app/
+- https://github.com/MuhammadAli143-pmg/construction-ppe-yolo-detector
 - [ ] Notebook run and showing epoch history and final mAP50
 - [ ] Two screenshots saved in `screenshots/`
 
