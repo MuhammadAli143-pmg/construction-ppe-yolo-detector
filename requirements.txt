@@ -1,0 +1,1 @@
+streamlit\nultralytics\npillow\npandas\n
