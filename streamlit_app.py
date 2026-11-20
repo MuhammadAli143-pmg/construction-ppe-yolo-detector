@@ -8,7 +8,12 @@ st.set_page_config(page_title="PPE Object Detector", page_icon="🦺", layout="w
 st.title("🦺 Construction PPE Object Detector")
 st.write("Upload an image to detect objects using a fine-tuned YOLO model.")
 
-MODEL_PATH = Path("models/best.pt")
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = BASE_DIR / "models" / "best.pt"
+
+if not MODEL_PATH.exists():
+    MODEL_PATH = BASE_DIR / "best.pt"
 
 @st.cache_resource
 def load_model(path):
